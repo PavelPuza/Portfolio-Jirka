@@ -1,65 +1,615 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekční kancelář</title>
-    <link rel="stylesheet" href="./CSS/app.css">
-</head>
 
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Projekční kancelář</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700Varela" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" sizes="16x16" href="assets/img/favicon.ico">
+    <link rel="manifest" href="assets/img/manifest.json">
+    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Font Awesome core CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
 
 <body>
 
-    <header>
+    <!-- Hero Section, Background Image change in css -->
+    <div id="top" class="hero background-overlay">
 
-        <h1 style="margin-bottom: 0;">Projekční kancelář</h1>
+        <!-- Name & Description -->
+        <div class="hero-content">
+            <h1>Projekční kancelář</h1>
+            <p class="hero-job"><span>Ing. Jiří Hlučil</span></p>
+            <p class="hero-job-desc">Projekční a inženýrská činnost</p>
 
-        <p style="margin : 0; padding-top: 0;">Ing.Jiří Hlučil</p>
+        </div><!-- /.hero-content -->
 
-    </header>
+        <div class="hero-arrow page-scroll home-arrow-down">
+            <a class="" href="#intro"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div><!-- /.hero-arrow -->
 
-    <h2>Projekční kancelář</h2>
+    </div><!-- /.hero -->
+    <!-- End Hero -->
 
-    <img width="400px" src="./images/works.jpg" alt="Pracovní stůl">
+    <!-- Header -->
+    <header id="masthead" class="site-header">
+        <nav id="primary-navigation" class="site-navigation" data-spy="affix">
+            <div class="container">
+                <div class="navbar-header page-scroll">
 
-    <h3>Projekční činnost</h3>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#portfolio-perfect-collapse" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-    <p>
-        Nabízíme kompletní projekční činnost v oblasti pozemních staveb.
-    </p>
+                    <!-- Name -->
+                    <div class="page-scroll site-logo">
+                        <a href="#top">Ing. Jiří Hlučil</a>
+                    </div>
 
-    <h3>Inženýrská činnost</h3>
+                </div><!-- /.navbar-header -->
 
-    <p>
-        Vyřizujeme jednání s orgány státní správy a správci sítí nutných k získání potřebných povolení.
-    </p>
+                <div class="main-menu collapse navbar-collapse" id="portfolio-perfect-collapse">
 
-    <h3>Stavební dozor</h3>
+                    <!-- Navigation -->
+                    <ul class="nav navbar-nav navbar-right">
 
-    <p>
-        V rámci našich činností nabízíme služby stavebního dozoru na Vašich stavbách.
-    </p>
+                        <li class="page-scroll"><a href="#top">Domů</a></li>
+                        <li class="page-scroll"><a href="#intro">Intro</a></li>
+                        <li class="page-scroll"><a href="#about">O mně</a></li>
+                        <li class="page-scroll"><a href="#services">Služby</a></li>
+                        <!-- <li class="page-scroll"><a href="#team">Team</a></li> -->
+                        <li class="page-scroll"><a href="#history">Zkušenosti</a></li>
+                        <!-- <li class="page-scroll"><a href="#works">Works</a></li> -->
+                        <li class="page-scroll"><a href="#contact">Kontakt</a></li>
 
-    <h3>Zelená úsporám</h3>
+                    </ul><!-- /.navbar-nav -->
 
-    <p>
-        Zajišťujeme veškeré služby v programu "zelená úsporám" vedoucí k získání dotace z tohoto programu.
-    </p>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+    <!-- End Header -->
 
-    <footer>
-        <h2>Kontakt</h2>
-        <p style="margin: 0">
-            Dvorského 41/22B <br>
-            639 00 Brno           
-        </p>
-        <a href="mailto:m.ppajos@seznam.cz"><strong>Email:</strong> ppajos@seznam.cz</a>
-        <br>
-        <a href="tel:+720 734 592 066"><strong>Phone:</strong> 734 592 066</a>
-    </footer>
+    <!-- Main content -->
+    <main id="main" class="site-main">
+
+        <!-- Hello section -->
+        <section class="site-section section-about text-center" id="about">
+            <div class="container">
+                <h2>AHOJ &amp; Vítejte</h2>
+                <p class="section-subtitle"><span>EXPLORE OUR WORLD</span></p><br><br>
+                <p>Naše projekční kancelář si zakládá na vysoce individuálním přístupu ke všem požadavkům klienta. Při
+                    zpracování Vašeho projektu po celou dobu tvorby projektové dokumentace až po její realizaci budete
+                    spolupracovat výhradně s jedním člověkem, který Vám bude vždy k dispozici k zapracování všech návrhů
+                    a zodpovězení Vašich otázek týkajících se projektové činnosti související s Vaší stavbou.
+
+                    Hlavním cílem naší projekční kanceláře je splnit veškeré požadavky klienta a zároveň se snažit
+                    ušetřit mu co nejvíce jeho peněz. Proto vždy volíme už při samotném návrhu ty nejúspornější způsoby
+                    výstavby s ohledem na finance klienta.</p>
+
+            </div>
+        </section><!-- /.section-hello -->
+        <!-- End Hello section -->
+
+        <!-- Quote section -->
+        <section class="section-background section-quote background-overlay text-center">
+            <div class="container">
+                <p>Dělám vše proto, aby moje <span>práce vypadala dobře.</span> Mám dlouho leté zkušenosti s navrhováním
+                    <span>domů, bytů a mostů.</span>
+                </p>
+            </div>
+        </section><!-- /.section-quote -->
+        <!-- End Quote section -->
+
+        <!-- About section -->
+        <section class="site-section section-about text-center">
+            <div class="container">
+                <h2>O mé práci</h2>
+                <p class="section-subtitle"><span>Mým cílem je </span></p>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="feature-about">
+                            <div class="medium-rectangle rectangle">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>Web design</h3>
+                            <p>Our approach to website design is to create a website that strengthens your company’s
+                                brand while ensuring ease of use and simplicity for your audience</p>
+                        </div><!-- /.feature-about -->
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="feature-about">
+                            <div class="medium-rectangle rectangle">
+                                <i class="fa fa-code" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>Web development</h3>
+                            <p>The web development process involves taking the graphical elements defined in the design
+                                process and coding them into a custom theme.</p>
+                        </div><!-- /.feature-about -->
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="feature-about">
+                            <div class="medium-rectangle rectangle">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>SEO OPTIMIZATION</h3>
+                            <p>Go farther than you thought you could. With us you can go farther then ever before. Be in
+                                top results of searches.</p>
+                        </div><!-- /.feature-about -->
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="feature-about">
+                            <div class="medium-rectangle rectangle">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>SOCIAL MEDIA</h3>
+                            <p>It's important to keep your brand consistent and recognizable across all platforms</p>
+                        </div><!-- /.feature-about -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-about -->
+        <!-- End About section -->
+
+        <!-- Skills section -->
 
 
+        <!-- Counters section -->
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-6 col-sm-offset-1">
+                        <div class="counter">
+                            <div class="rectangle medium-rectangle ">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <span class="counter-start" data-to="167" data-speed="2000">167</span>
+                            </div><!-- /.rectangle -->
+                            <p>Projects Launched</p>
+                        </div><!-- /.counter -->
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="counter">
+                            <div class="rectangle medium-rectangle ">
+                                <i class="fa fa-trophy" aria-hidden="true"></i>
+                                <span class="counter-start" data-to="25" data-speed="2000">25</span>
+                            </div><!-- /.rectangle -->
+                            <p>Awards won</p>
+                        </div><!-- /.counter -->
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="counter">
+                            <div class="rectangle medium-rectangle ">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span class="counter-start" data-to="98" data-speed="2000">98</span>
+                            </div><!-- /.rectangle -->
+                            <p>Proposals Sent</p>
+                        </div><!-- /.counter -->
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="counter">
+                            <div class="rectangle medium-rectangle ">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <span class="counter-start" data-to="945" data-speed="2000">945</span>
+                            </div><!-- /.rectangle -->
+                            <p>Hours of work</p>
+                        </div><!-- /.counter -->
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <div class="counter">
+                            <div class="rectangle medium-rectangle ">
+                                <i class="fa fa-coffee" aria-hidden="true"></i>
+                                <span class="counter-start" data-to="256" data-speed="2000">256</span>
+                            </div><!-- /.rectangle -->
+                            <p>Cups of coffee</p>
+                        </div><!-- /.counter -->
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- /.section-counters -->
+        <!-- End Counters section -->
+
+        <!-- Services section -->
+        <section class="site-section section-services" id="services">
+
+            <div class="container-fluid">
+                <h2>Služby, které nabízím</h2>
+                <p class="section-subtitle"><span>Vyjímečná úroveň služeb</span></p>
+                <br><br><br>
+                <div class="container">
+                    <p">Hlavní činnosti projekční kanceláře:</p>
+
+                        <ul>
+                            <li>architektonické návrhy staveb, architektonické a objemové studie, dokumentace pro územní
+                                a
+                                stavební řízení a dokumentace pro provedení stavby</li>
+                            <li>návrhy interiérů občanských a obytných budov</li>
+                            <li>celkové projektové zpracování zakázky od studií až po technické řešení detailů
+                                stavebních prací,
+                                konstrukcí a materiálů</li>
+                            <li>inženýrská činnost při získávání územního rozhodnutí a stavebního povolení, činnost po
+                                dokončení
+                                stavby vedoucí k získání kolaudačního rozhodnutí</li>
+                            <li>zpracování položkového rozpočtu stavby</li>
+                        </ul>
+                </div>
+            </div>
+        </section><!-- /.section-services -->
+        <!-- End Services section -->
+
+        <!-- Quote section -->
+        <section class="section-background section-quote-t background-overlay text-center">
+            <div class="container">
+                <p>Dělám vše proto, aby moje <span>práce vypadala dobře.</span> Mám dlouho leté zkušenosti s navrhováním
+                    <span>domů, bytů a mostů.</span>
+                </p>
+            </div>
+        </section><!-- /.section-quote -->
+        <!-- End Quote section -->
+
+
+        <!-- History section -->
+        <section class="section-history" id="history">
+            <div class="container">
+                <div class="text-center section-diff-title">
+                    <h2>Pohled do mé historie</h2>
+                    <p>Toto je mé vzdělání a historie</p>
+                </div>
+                <br><br><br>
+                <div class="container">
+                    <p>Výběr z některých zakázek:</p>
+                    <ul>
+                        <li>Rekonstrukce RD Heršpice - Vyškov</li>
+                        <li>Rekonstrukce RD Brno – Slatina</li>
+                        <li>Novostavba RD Drásov</li>
+                        <li>Novostavba RD Bohuňovice</li>
+                        <li>Architektonická studie přestavby RD Brno – Masarykova Čtvrť</li>
+                        <li>Architektonická studie přestavby komplexu NIKA v Brně</li>
+                        <li>Rekonstrukce panelového bytu Brno – Líšeň</li>
+                        <li>Zaměření bytového domu Brno - střed</li>
+                    </ul>
+                </div>
+            </div>
+        </section><!-- /.section-history -->
+        <!-- End History section -->
+
+        <!-- Me section -->
+        <section class="section-background section-me background-overlay text-center">
+            <div class="container page-scroll">
+                <h2>Zaujala vás moje práce?</h2>
+                <a href="#contact" class="btn">Kontaktujte mě</a>
+            </div>
+        </section><!-- /.section-me -->
+        <!-- End Me section -->
+
+        <!-- Contacts section -->
+        <section class="site-section section-contact" id="contact">
+            <div class="container">
+                <h2>KONTAKT</h2>
+                <p class="section-subtitle"><span>Zde mě najdete</span></p>
+                <div class="row">
+                    <form>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" placeholder="Jméno" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-control" type="email" placeholder="Email" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" placeholder="Předmět" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" placeholder="Vaše zpráva" required></textarea>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <button class="btn btn-inverted">Odeslat zprávu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section><!-- /.section-contact-->
+        <!-- End Contacts section -->
+
+        <!-- Social Networks section -->
+        <section class="section-networks blue-bg">
+            <div class="container dekovani">
+                Děkuji za Vaši důvěru.
+            </div>
+        </section><!-- /.section-networks-->
+        <!-- End Social Networks section -->
+
+    </main><!-- /#main -->
+    <!-- End Main content -->
+
+    <!-- Footer -->
+    <footer id="colophon" class="site-footer">
+
+        <div class="container-fluid">
+
+            <ul class="list-unstyled list-inline">
+                <li class="page-scroll"><a href="#top">Domů</a></li>
+                <li class="page-scroll"><a href="#intro">Intro</a></li>
+                <li class="page-scroll"><a href="#about">O mně</a></li>
+                <li class="page-scroll"><a href="#services">Služby</a></li>
+                <!-- <li class="page-scroll"><a href="#team">Team</a></li> -->
+                <li class="page-scroll"><a href="#history">Zkušenosti</a></li>
+                <!-- <li class="page-scroll"><a href="#works">Works</a></li> -->
+                <li class="page-scroll"><a href="#contact">Kontakt</a></li>
+            </ul>
+
+            <div class="page-scroll">
+                <a href="#top" class="rectangle">
+                    <i class="fa fa-angle-double-up"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="container text-center">
+            <p class="copyright">&copy; <a href="http://pixelperfect.mk/" target="_blank">PixelPerfect</a> - 2017</p>
+        </div>
+
+    </footer><!-- /#footer -->
+    <!-- End Footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem7" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-7.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem8" class="modal fade fade-scale" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+                    <img class="img-res" src="assets/img/portfolio-8.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-title">Project title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Visit Page</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery core js | Do not Delete -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap core js | Do not Delete -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap progressbar JS -->
+    <script src="assets/js/bootstrap-progressbar.min.js"></script>
+
+    <!-- Count To JS -->
+    <script src="assets/js/jquery.countTo.min.js"></script>
+
+    <!-- Easing JS -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!-- Shuffle JS -->
+    <script src="assets/js/jquery.shuffle.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Touchswipe JS -->
+    <script src="assets/js/touchswipe.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
