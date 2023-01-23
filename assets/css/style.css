@@ -2156,7 +2156,7 @@ body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/house.jpg) center no-repeat fixed;
+  background: url(../img/construction.jpg) center no-repeat fixed;
 }
 
 .section-quote-t {
@@ -2535,3 +2535,8 @@ textarea.form-control {
   color: white;
   font-size: xx-large;
 }
+
+.odstavce {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  }
