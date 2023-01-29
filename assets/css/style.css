@@ -1000,6 +1000,7 @@ body {
 
 .site-section.section-counters .rectangle {
   margin: 15px auto 10px;
+  
 }
 
 .site-section.section-counters .rectangle i,
@@ -2564,4 +2565,10 @@ textarea.form-control {
 
 .blue {
   color: #196fc2;
+}
+
+.obrazce {
+  margin: auto;
+  padding: auto;
+  text-align: center;
 }
