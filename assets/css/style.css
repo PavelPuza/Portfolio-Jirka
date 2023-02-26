@@ -706,6 +706,10 @@ body {
   .site-section {
     padding: 80px 0;
   }
+
+  .site-predstaveni {
+    padding: 80px 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -995,7 +999,7 @@ body {
 
 /* Section: Counters */
 .site-section.section-counters {
-  padding-bottom: 0;
+  padding-bottom: 80px;
 }
 
 .site-section.section-counters .rectangle {
